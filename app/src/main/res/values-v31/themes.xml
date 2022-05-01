@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Shoppyandroid.Splash">
+        <item name="android:windowSplashScreenBackground">@color/shoppy_white</item>
+    </style>
+</resources>
