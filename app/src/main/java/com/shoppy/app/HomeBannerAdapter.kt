@@ -37,7 +37,7 @@ class HomeBannerAdapter :
         private val bannerDetailProductLabelTextView =
             view.findViewById<TextView>(R.id.tv_banner_detail_product_label)
         private val bannerDetailDiscountRateTextView =
-            view.findViewById<TextView>(R.id.tv_product_discount_rate)
+            view.findViewById<TextView>(R.id.tv_banner_detail_product_discount_label)
         private val bannerDetailDiscountPriceTextView =
             view.findViewById<TextView>(R.id.tv_banner_detail_product_discount_price)
         private val bannerDetailPriceTextView =
@@ -51,7 +51,7 @@ class HomeBannerAdapter :
             loadImage(banner.productDetail.thumbnailImageUrl, bannerDetailThumbnailImageView)
             bannerDetailBrandLabelBadgeTextView.text = banner.productDetail.brandName
             bannerDetailProductLabelTextView.text = banner.productDetail.label
-//            bannerDetailDiscountRateTextView.text = "${banner.productDetail.discountRate}%"
+            bannerDetailDiscountRateTextView.text = "${banner.productDetail.discountRate}%"
             calculateDiscountAmount(bannerDetailDiscountPriceTextView, banner.productDetail.discountRate, banner.productDetail.price)
             applyPriceFormat(bannerDetailPriceTextView, banner.productDetail.price)
         }
