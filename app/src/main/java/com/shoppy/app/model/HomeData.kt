@@ -1,7 +1,7 @@
 package com.shoppy.app.model
 
 import com.google.gson.annotations.SerializedName
-import com.shoppy.app.Banner
+import com.shoppy.app.model.Banner
 
 data class HomeData(
     val title: Title,

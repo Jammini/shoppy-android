@@ -3,7 +3,7 @@ package com.shoppy.app.ui.home
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.shoppy.app.Banner
+import com.shoppy.app.model.Banner
 import com.shoppy.app.model.Title
 import com.shoppy.app.repository.HomeRepository
 

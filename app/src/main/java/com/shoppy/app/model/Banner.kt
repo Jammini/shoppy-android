@@ -1,4 +1,4 @@
-package com.shoppy.app
+package com.shoppy.app.model
 
 import com.google.gson.annotations.SerializedName
 
