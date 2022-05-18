@@ -5,10 +5,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.shoppy.app.AssetLoader
 import com.shoppy.app.network.ApiClient
-import com.shoppy.app.repository.CategoryRemoteDataSource
-import com.shoppy.app.repository.CategoryRepository
-import com.shoppy.app.repository.HomeAssetDataSource
-import com.shoppy.app.repository.HomeRepository
+import com.shoppy.app.repository.category.CategoryRemoteDataSource
+import com.shoppy.app.repository.category.CategoryRepository
+import com.shoppy.app.repository.home.HomeAssetDataSource
+import com.shoppy.app.repository.home.HomeRepository
 import com.shoppy.app.ui.category.CategoryViewModel
 import com.shoppy.app.ui.home.HomeViewModel
 import java.lang.IllegalArgumentException

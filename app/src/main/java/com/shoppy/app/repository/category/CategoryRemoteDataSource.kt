@@ -1,4 +1,4 @@
-package com.shoppy.app.repository
+package com.shoppy.app.repository.category
 
 import com.shoppy.app.model.Category
 import com.shoppy.app.network.ApiClient

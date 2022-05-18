@@ -1,4 +1,4 @@
-package com.shoppy.app.repository
+package com.shoppy.app.repository.home
 
 import com.google.gson.Gson
 import com.shoppy.app.AssetLoader
