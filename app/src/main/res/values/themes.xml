@@ -12,9 +12,14 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="appBarLayoutStyle">@style/AppbarStyle</item>
     </style>
 
     <style name="Theme.Shoppyandroid.Splash">
         <item name="android:windowBackground">@drawable/background_splash_screen</item>
+    </style>
+
+    <style name="AppbarStyle" parent="Widget.Design.AppBarLayout">
+        <item name="background">@color/shoppy_white</item>
     </style>
 </resources>
